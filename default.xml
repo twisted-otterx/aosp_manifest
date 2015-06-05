@@ -410,9 +410,9 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="xanaxdroid/arm-eabi-4.8" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="xanaxdroid/arm-eabi-4.9" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="xanaxdroid/arm-eabi-5.1" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="xanaxdroid/arm-linux-androideabi-4.8" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bb" revision="sabermod" />
@@ -466,6 +466,8 @@
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware"  remote="github" revision="cm-12.1"/>
+  <project path="frameworks/opt/cards" name="gmillz/frameworks_opt_cards" remote="github" revision="lp5.1" />
+
   <!--Extras for Sm test -->
   <project path="vendor/sm" name="TeamTwisted/vendor_sm" remote="bb" revision="master" />
 </manifest>
