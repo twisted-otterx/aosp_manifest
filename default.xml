@@ -452,8 +452,9 @@
 
 
   <!--Kernel For Devices -->
-  <project path="kernel/lge/hammerhead" name="TeamTwisted/hammerhead" remote="github" revision="lollipop-mr1" />
-  <project path="kernel/moto/shamu" name="TeamTwisted/Shamu" remote="github" revision="lollipop-mr1" />
+  <project path="kernel/lge/hammerhead" name="TeamTwisted/hammerhead" remote="github" revision="sm-test" />
+  <project path="kernel/moto/shamu" name="TeamTwisted/Shamu" remote="github" revision="sm-test" />
+  <project path="kernel/lge/hells-Core" name="TeamTwisted/hells-Core-N5" remote="github" revision="sm-test" />
 
   <!--Vendors for now -->
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="github" revision="opti-5.1" />
