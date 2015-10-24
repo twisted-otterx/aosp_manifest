@@ -466,12 +466,15 @@
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="lp5.1" />
 
 <!--OtterX/Twisted Sources -->
-
 <project path="device/amazon/otterx" name="twisted-otterx/android_device_amazon_otterx" remote="github" revision="android-6.0" />
-
 <project path="device/amazon/omap4-common" name="twisted-otterx/android_device_amazon_omap4-common" remote="github" revision="android-6.0" />
-
 <project path="device/amazon/otter-common" name="twisted-otterx/android_device_amazon_otter-common" remote="github" revision="android-6.0" />
+
+<!--OtterX/Twisted Kernel -->
+<project path="kernel/amazon/otter-common" name="twisted-otterx/android_kernel_amazon_otter-common" remote="github" revision="android-6.0" />
+
+<!-- The Muppets-otter-vendor -->
+  <project path="vendor/amazon" name="twisted-otterx/proprietary_vendor_amazon" remote="github" revision="android-6.0" />
 
     <!--Temp Kernels-->
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
