@@ -14,6 +14,11 @@
            remote="aosp"
            sync-j="4" />
 
+<remote  name="aosp1"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.1.1_r24" />
+
   <project path="build" name="TeamTwisted/platform_build" remote="github" revision="m6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -421,8 +426,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
 
 <!--CMs ToolChains-->
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="android-5.1.1_r24"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="android-5.1.1_r24"/>
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp1"/>
  
 
   <!--TeamTwisted Tracked Sources -->
