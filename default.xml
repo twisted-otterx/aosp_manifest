@@ -428,7 +428,7 @@
   <project path="external/jemalloc" name="TeamTwisted/external_jemalloc" remote="github" revision="m6.0" />
   <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="github" revision="m6.0" />
   <project path="frameworks/av" name="TeamTwisted/frameworks_av" remote="github" revision="m6.0" />
-  <!--<project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="m6.0" /> -->
+  <project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="m6.0" />
   <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="m6.0" />
   <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="m6.0" />
   <project path="ndk" name="TeamTwisted/ndk" remote="github" revision="m6.0" />
