@@ -469,7 +469,7 @@
 <project path="device/amazon/otterx" name="twisted-otterx/android_device_amazon_otterx" remote="github" revision="android-6.0" />
 <project path="device/amazon/omap4-common" name="twisted-otterx/android_device_amazon_omap4-common" remote="github" revision="android-6.0" />
 <project path="device/amazon/otter-common" name="twisted-otterx/android_device_amazon_otter-common" remote="github" revision="android-6.0" />
-<project path="frameworks/base" name="twisted-otterx/platform_frameworks_base" remote="github" revision="android-6.0" />
+<!--<project path="frameworks/base" name="twisted-otterx/platform_frameworks_base" remote="github" revision="android-6.0" />-->
 
 <!--OtterX/Twisted Kernel -->
 <project path="kernel/amazon/otter-common" name="twisted-otterx/android_kernel_amazon_otter-common" remote="github" revision="android-6.0" />
