@@ -1,4 +1,5 @@
 TeamTwisted Github
+twisted-otterx Github
 ===================
 
 Setting up Build Environment
@@ -12,7 +13,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir aosp (or whatever you want to name the source folder)
 - cd ~/aosp
-- repo init -u https://github.com/TeamTwisted/aosp_manifest.git -b m6.0
+- repo init -u https://github.com/twisted-otterx/aosp_manifest.git -b android-6.0
 
 Sync the Source
 ---------------
@@ -29,15 +30,15 @@ Choose Supported Device to Build
 
 Now Build it
 ------------
-- mka otapackage
+- make otapackage
 
 For Quick Dirty Rebuilds
 ------------------------
 - cd ~/aosp
 - repo sync -jx -f (x being however many cpu jobs, may also use -c as above)
 - lunch and pick the right device (refer to above for choosing right device to build)
-- mka dirty
-- mka otapackage
+- make dirty
+- make otapackage
 
 Credits
 -------

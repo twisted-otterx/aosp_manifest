@@ -471,6 +471,24 @@
 <project path="device/amazon/otter-common" name="twisted-otterx/android_device_amazon_otter-common" remote="github" revision="android-6.0" />
 <!--<project path="frameworks/base" name="twisted-otterx/platform_frameworks_base" remote="github" revision="android-6.0" />-->
 
+<!-- cm/android_hardware_ti_wlan -->
+<project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" />
+
+<!-- cm/android_hardware_ti_wpan -->
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-12.0" />
+
+<!-- cm/android_hardware_libhardware_legacy 
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-12.0" /> 
+
+ cm/android_hardware_libhardware 
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.0" /> 
+-->
+<!-- cm/android_hardware_ti_omap4xxx -->
+<project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-12.0" /> 
+
+<!-- cm/android_wpa_suplicant_8 -->
+ <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.0" />
+
 <!--OtterX/Twisted Kernel -->
 <project path="kernel/amazon/otter-common" name="twisted-otterx/android_kernel_amazon_otter-common" remote="github" revision="android-6.0" />
 
