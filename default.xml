@@ -490,7 +490,6 @@
  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.0" />
 
 
-https://github.com/CyanogenMod/android_kernel_amazon_otter-common.git
 <!--OtterX/Twisted Kernel -->
 <project path="kernel/amazon/otter-common" name="CyanogenMod/android_kernel_amazon_otter-common" remote="github" revision="cm-12.1" />
 
