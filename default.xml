@@ -504,7 +504,7 @@
 <project path="kernel/amazon/otter-common" name="CyanogenMod/android_kernel_amazon_otter-common" remote="github" revision="cm-12.1" />
 
 <!-- The Muppets-otter-vendor -->
-  <project path="vendor/amazon" name="twisted-otterx/proprietary_vendor_amazon" remote="github" revision="android-6.0" />
+  <project path="vendor/amazon" name="twisted-otterx/proprietary_vendor_amazon" remote="github" revision="cm-12.1" />
 
     <!--Temp Kernels-->
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
